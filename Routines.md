@@ -30,6 +30,7 @@ load('path/to/the/file/myObjects')
 <h2>Install packages</h2>
 
 ```r
+# Install a list of packages
 install.packages(c('ggplot2', 'svmpath'， 'e1071'))
 
 # Sometimes PeterMac blocks the access from CRAN,
