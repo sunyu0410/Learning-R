@@ -39,5 +39,26 @@ install.packages(c('ggplot2', 'svmpath'， 'e1071'))
 # therefore install.packages() from CRAN will not work.
 # In this case, you can download the zip file from CRAN,
 # and install from local zip.
+# see http://stackoverflow.com/questions/7075709/install-binary-zipped-r-package-via-command-line
 install.packages('path/to/the/zip/gglot2.zip', repos=NULL)
+```
+
+<h2>Run a script</h2>
+
+```bat
+Rscript myscript.r
+```
+
+<h2>Run R non-interactively</h2>
+```bat
+:: Sometimes you just want to execute a script 
+:: and store the result in a text file.
+R CMD BATCH input.r output.txt
+
+:: To run it in background, add & at the end.
+:: This is suitable for cloud computing.
+R CMD BATCH input.r output.txt &
+
+:: To see the process
+top
 ```
