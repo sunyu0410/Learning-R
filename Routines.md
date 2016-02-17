@@ -13,8 +13,10 @@ q()
 ```r
 # Command history (all commands typed)
 savehistory('myhistory.txt')
+
 # An object of interest
 save(list_of_object, file='myobject.Robject')
+
 # All objects (the whole environment), 
 # also called an image or a snapshot
 save.image('myImage.Rimage')
