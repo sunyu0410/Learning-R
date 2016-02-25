@@ -1,5 +1,5 @@
 # Learning-R
-This repository contains materials for a tutorials in R.
+This repository contains materials for R.
 
 Course outline:
 
@@ -8,7 +8,7 @@ Course outline:
 3. Data types
 4. Conditons and loops
 5. Functions
-6. Input and output
+6. Inputs and outputs
 7. Plots and graphics
 8. Concepts in modern programming (part II)
 8. Course summary
